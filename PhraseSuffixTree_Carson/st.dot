@@ -1,0 +1,14 @@
+digraph {
+	rankdir = LR;
+	edge [arrowsize=0.4,fontsize=10]
+	node1 [label="",style=filled,fillcolor=lightgrey,shape=circle,width=.1,height=.1];
+//------edges------
+	node1 -> node5 [label="asap",weight=3]
+	node1 -> node8 [label="call",weight=3]
+	node1 -> node10 [label="if you",weight=3]
+	node1 -> node4 [label="me asap",weight=3]
+	node1 -> node6 [label="please call",weight=3]
+	node6 -> node7 [label="if you",weight=3]
+	node6 -> node2 [label="me asap",weight=3]
+	node1 -> node11 [label="you",weight=3]
+}
